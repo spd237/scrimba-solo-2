@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+header > h3 {
+  color: white;
+  font-weight: 500;
+  padding: 1.25rem 0rem;
+  font-size: 1rem;
+}
+
+.travels {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.travel-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  place-items: center;
+  gap: 1.1rem;
+}
+
+.info-top {
+  display: flex;
+  align-content: center;
+}
+.location {
+  margin: 0 0.75rem 0 0.25rem;
+  letter-spacing: 0.17em;
+  font-size: 0.75rem;
+}
+.link {
+  font-size: 0.75rem;
+  color: #918e9b;
+}
+
+.travel-info > h1 {
+  font-size: 1.55rem;
+  line-height: 1.8rem;
+  color: #2b283a;
+  margin: 0.3rem auto 0.75rem auto;
+}
+
+.travel-dates {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 0.75rem;
+  color: #2b283a;
+}
+
+.travel-description {
+  color: #2b283a;
+  font-size: 0.8rem;
+  line-height: 150%;
+  margin-top: 0.35rem;
+}
